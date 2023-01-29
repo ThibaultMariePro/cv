@@ -1,0 +1,31 @@
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+}
+
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 5mm ;
+    /* padding: 10mm ; */
+    /* margin: 5mm ; */
+    border: 1px black solid;
+    border-radius: 5px;
+    background: white;
+}
+
+/* SEPCS STYLE */
+.border-1-black{
+    border: 1px solid #00d1b2;
+}

@@ -1,0 +1,156 @@
+/* CLASSES */
+.antiquewhite{color:#FAEBD7;}
+.redcitadel{color:#850612;}
+.coolblue{color:#449D9C;}
+.mintblue{color:#82F1D2;}
+
+.bg-antiquewhite{background-color: #FAEBD7;}
+.bg-redcitadel{background-color: #850612;}
+.bg-coolblue{background-color: #449D9C;}
+.bg-mintblue{background-color: #82F1D2;}
+
+.border-antiquewhite{border-color: antiquewhite;}
+.border-redcitadel{border-color: #850612;}
+
+.skewX-20{transform: skew(20deg, 0deg);}
+.unskewX-20{transform: skew(-20deg);}
+.skewY-2{transform: skew(0deg, 2deg);}
+.skewY-5{transform: skew(0deg, 5deg);}
+.skewY-20{transform: skew(0deg, 20deg);}
+.unskewY-2{transform: skew(0deg, -2deg);}
+.unskewY-5{transform: skew(0deg, -5deg);}
+.unskewY-20{transform: skew(0deg, -20deg);}
+
+.block{display: block;}
+.flex{display: flex;}
+.inline{display: inline;}
+.inline-flex{display: inline-flex;}
+.inline-block{display: inline-block;}
+.row{flex-direction: row;}
+.column{flex-direction: column;}
+.justify-content-between{justify-content: space-between}
+.justify-content-around{justify-content: space-around}
+.align-items-center{align-items: center;}
+
+.padding-0{padding: 0px;}
+.padding-52{padding: 5px;}
+.padding-10{padding: 10px;}
+.padding-15{padding: 15px;}
+.padding-20{padding: 20px;}
+.padding-bottom-5{padding-bottom: 5px;}
+.padding-bottom-10{padding-bottom: 10px;}
+.padding-bottom-20{padding-bottom: 20px;}
+.padding-top--5{padding-top: -5px;}
+.padding-top--10{padding-top: -10px;}
+.padding-top--20{padding-top: -20px;}
+
+.margin-0{margin: 0px;}
+.margin-10{margin: 10px;}
+.margin-15{margin: 15px;}
+.margin-20{margin: 20px;}
+.margin-x-10{margin: 0 10px;}
+.margin-x-20{margin: 0 20px;}
+.margin-x--20{margin: 0 -20px}
+.margin-bottom-5{margin-bottom: 5px;}
+.margin-bottom-20{margin-bottom: 20px;}
+.margin-top-5{margin-top: 5px;}
+.margin-top-10{margin-top: 10px;}
+.margin-top-20{margin-top: 20px;}
+.margin-right-0{margin-right: 0px;}
+
+.height-10{height: 10px;}
+.height-50{height: 50px;}
+
+.width-30{width: 30%;}
+.width-40{width: 40%;}
+.width-50{width: 50%;}
+.width-60{width: 60%;}
+
+.rotate{transform: rotate(-5deg);}
+.bold{ font-weight: bold;}
+.center{text-align: center;}
+.justify{text-align: justify;}
+.right{text-align: right;}
+.left{text-align: left;}
+
+.font-size-Xsmall{font-size: 0.6em ;}
+.font-size-small{font-size: 0.8em ;}
+.font-size-med{font-size: 1em ;}
+.font-size-large{font-size: 1.2em ;}
+.font-size-Xlarge{font-size: 1.4em ;}
+
+.font-architect{font-family: 'Architects Daughter', cursive;}
+.font-roboto{font-family: 'Roboto', sans-serif;}
+.font-sourcecode{font-family: 'Source Code Pro', monospace;}
+
+.separator-2{width: 75%; margin:2px auto;}
+.separator-5{width: 75%; margin:5px auto;}
+.separator-10{width: 75%; margin:10px auto;}
+
+.icon{width: 45px; height: 45px; margin: 0px 30px; padding: 2px; background-color: antiquewhite}
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 5mm ;
+    /* padding: 10mm ; */
+    margin: 10mm auto;
+    border: 1px black solid;
+    border-radius: 5px;
+    background: white;
+}
+.subpage {
+    background-color: #FAEBD7;
+    padding: 0.5cm;
+    /* padding: 1cm; */
+    border: 5px #850612 solid;
+    /* border: 5px #449D9C solid; */
+    /* border: 5px rgb(255, 145, 0) solid; */
+    height: 287mm;
+    outline: 1cm transparent solid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&family=Source+Code+Pro&display=swap');
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;        
+    }
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
