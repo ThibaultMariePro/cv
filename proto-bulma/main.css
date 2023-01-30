@@ -37,3 +37,8 @@ h1{
 .border-1-primary{
     border: 1px solid #00d1b2;
 }
+
+.vertical-text-rl{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
