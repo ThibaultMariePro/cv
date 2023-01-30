@@ -16,13 +16,21 @@ body {
 
 .page {
     width: 210mm;
-    min-height: 297mm;
+    height: 297mm;
     padding: 5mm ;
     /* padding: 10mm ; */
     /* margin: 5mm ; */
     border: 1px black solid;
     border-radius: 5px;
     background: white;
+}
+
+article, section{
+    margin:2px !important;
+    padding: 2px !important;
+}
+h1{
+    margin: 1px !important;
 }
 
 /* SEPCS STYLE */
