@@ -29,8 +29,26 @@ article, section{
     margin:2px !important;
     padding: 2px !important;
 }
+
+td{
+    padding: 2px !important;
+    margin: 0 !important;
+}
+
 h1{
     margin: 1px !important;
+}
+
+.box{
+    padding: 10px !important;
+    margin: 0px !important;
+}
+
+.message-header{
+    padding: 1px !important;
+}
+.message-body {
+    padding: 5px !important;
 }
 
 /* SEPCS STYLE */
