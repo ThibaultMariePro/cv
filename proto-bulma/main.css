@@ -24,10 +24,13 @@ body {
     border-radius: 5px;
     background: white;
 }
+.pagemargin{
+    padding: 2mm !important;
+}
 
-article, section{
-    margin:2px !important;
-    padding: 2px !important;
+article, section, div{
+    margin:1px !important;
+    padding: 1px !important;
 }
 
 td{
