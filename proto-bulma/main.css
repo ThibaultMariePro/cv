@@ -43,8 +43,11 @@ h1{
 }
 
 .box{
-    padding: 0 5px !important;
+    padding: 0px!important;
     margin: 0px !important;
+}
+.tools .box{
+    padding: 0 5px !important;
 }
 
 .message-header{
@@ -52,6 +55,9 @@ h1{
 }
 .message-body {
     padding: 5px !important;
+}
+.xtrapro .message-body{
+    padding: 2px !important;
 }
 
 /* SEPCS STYLE */
