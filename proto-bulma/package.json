@@ -1,5 +1,18 @@
 {
   "dependencies": {
-    "bulma": "^0.9.4"
-  }
+    "bulma": "^0.9.4",
+    "bulma-start": "^0.0.5"
+  },
+  "name": "proto-bulma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
