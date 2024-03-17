@@ -649,6 +649,18 @@ video {
   gap: 4rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
