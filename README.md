@@ -1,3 +1,3 @@
 # cv
-### TO ignore since it's very old cheese, maybe some day I'll clean it.
-please go away, really.
+## last updated : Mars 2024
+> Don't judge old cheese.
