@@ -11,10 +11,10 @@
     />
   </head>
 
-  <body>
-    <header id="header" class="header flex flex-col">
+  <body class="flex-col items-center">
+    <header id="header" class="mt-4 header flex flex-col">
       <div class="flex justify-between items-end">
-        <div id="breadcrumb" class="flex mb-0 p-1 items-center">
+        <!-- <div id="breadcrumb" class="flex mb-0 p-1 items-center">
           <span class="material-symbols-outlined"> home </span>
           <span class="material-symbols-outlined"> chevron_right </span>
           <span>Recrutement</span>
@@ -31,7 +31,7 @@
         <small class="italic text-gray-700"
           >Attention, ce CV ne tient pas sur une page A4.</small
         >
-      </div>
+      </div> -->
       <section class="flex justify-center">
         <figure
           class="flex flex-col items-center justify-center rounded-tl-full bg-gradient-to-tr from-fuchsia-200 to-cyan-500/100 w-28 shadow"
@@ -43,11 +43,9 @@
           />
         </figure>
         <div
-          class="border-t-2 border-cyan-500 pl-1 pr-2 shadow rounded-br-full"
+          class=" flex items-center border-t-2 border-cyan-500 pl-1 pr-2 shadow rounded-br-full"
         >
           <h2 class="font-bold">
-            <span class="material-symbols-outlined pt-1"> terminal </span>
-            <br />
             Surf the web,<br />Design,<br />
             Dev,<br />Build.
           </h2>
@@ -56,28 +54,36 @@
         <div class="flex flex-col justify-between border-t-2 border-cyan-500">
           <div id="whoami">
             <div>
-              <h1 class="text-right">
-                <span class="font-bold text-xl border-b-2 border-cyan-500"
+              <h1 class="flex">
+                <span class="text-center font-bold text-xl border-b-2 border-cyan-500"
                   >Thibault MARIE</span
                 >
+                <div class="flex items-center bg-yellow-100 rounded px-4">
+                  <span class="material-symbols-outlined"> smartphone </span>
+                  <ul class="text-center">
+                    <li>
+                      06 52 51 02 53
+                      <a href="mailto:thibault.marie.pro@gmail.com">
+                        <span class="">thibault.marie.pro@gmail.com</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </h1>
             </div>
-            <p class="text-center pr-2 font-bold">
-              <span>Concepteur Developpeur d'Applications, 32ans</span>
-              <br />
-              <span class="italic">passion-powered-person</span>
+            <p class="text-center pr-2">
+              <span>Concepteur Developpeur d'Applications, 32ans, RQTH</span>
             </p>
-            <p class="text-center">
-              Recherche un poste de
-              <strong class="font-bold text-cyan-600 underline">
-                développeur web</strong
+            <p class="font-bold text-center text-xl text-cyan-800">
+              Recherche une alternance<br>
+              <strong class="underline">
+                Expert en Architecture et Développement Logiciel</strong
               >
             </p>
           </div>
-          <div class="flex items-center bg-yellow-100 rounded px-4">
+          <!-- <div class="flex items-center bg-yellow-100 rounded px-4">
             <span class="material-symbols-outlined"> smartphone </span>
             <ul class="text-center">
-              <li>Thibault Marie | 18 rue des chambelles 44000 Nantes</li>
               <li>
                 06 52 51 02 53 |
                 <a href="mailto:thibault.marie.pro@gmail.com">
@@ -85,10 +91,11 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </section>
     </header>
+
     <main class="my-2">
       <section
         id="xp-pro"
@@ -111,11 +118,11 @@
           <tbody>
             <!-- Fondateur et developpeur chez reverse814 à Nantes depuis mai 2024 -->
             <tr
-              class="bg-gradient-to-r from-emerald-50 via-pink-50 to-green-50"
+              class=""
             >
               <td class="flex flex-col items-center justify-center text-center">
-                <span class="font-bold text-purple-900"
-                  >Fondateur<br />Concepteur<br />Développeur</span
+                <span class="font-bold"
+                  >Fondateur &<br />Concepteur<br />Développeur</span
                 >
                 <small class="italic">Mai 2024</small>
                 <small class="text-pink-700 font-bold">reverse814</small>
@@ -185,7 +192,7 @@
                 </div>
               </td>
             </tr>
-            <tr class="bg-slate-50">
+            <tr class="">
               <td class="flex flex-col items-center justify-center text-center">
                 <span class="font-bold">Stage CDA</span>
                 <small class="italic">Mai/Juil 2023</small>
@@ -257,7 +264,7 @@
                 </div>
               </td>
             </tr>
-            <tr class="bg-slate-50">
+            <tr class="">
               <td class="flex flex-col items-center justify-center text-center">
                 <span class="font-bold"
                   >Trader <br />
@@ -373,7 +380,7 @@
         >
           <div class="flex items-center">
             <span class="material-symbols-outlined"> build </span>
-            <span>Outils</span>
+            <span>Compétences</span>
           </div>
           <span
             class="material-symbols-outlined rounded-full bg-cyan-100 shadow"
@@ -382,20 +389,7 @@
           </span>
         </div>
         <article>
-          <div class="grid grid-cols-4 text-center">
-            <div
-              class="flex flex-col items-center bg-link-light rounded shadow p-1"
-            >
-              <span class="material-symbols-outlined"> language </span>
-              <span class="font-bold border-b-4 border-fuchsia-400"
-                >LANGUES</span
-              >
-              <ul class="text-link-dark">
-                <li>Français C2</li>
-                <li>Anglais B2/C1</li>
-                <li>Espagnol A1/A2</li>
-              </ul>
-            </div>
+          <div class="grid grid-cols-3 text-justify">
             <div
               class="flex flex-col items-center bg-warning-light rounded shadow p-1"
             >
@@ -404,10 +398,10 @@
                 >ENVIRONNEMENT</span
               >
               <ul class="text-warning-dark">
-                <li>git, npm, yay, pacman</li>
-                <li>Docker</li>
+                <li>git, npm, yarn, yay, pacman</li>
+                <li>Docker, Insomnia</li>
                 <li>VM, WSL, Arch Linux</li>
-                <li>Trifouillage de Windows pluridisciplinaire</li>
+                <li>Trifouillage de Windows<br>pluridisciplinaire</br>
               </ul>
             </div>
             <div
@@ -418,10 +412,11 @@
                 >TECHNOS</span
               >
               <ul class="text-primary-dark">
-                <li>HTML, CSS, SASS, Tailwind</li>
+                <li>Web static, Tailwind</li>
                 <li>HTMX, JS, Jquery, PHP</li>
                 <li>React, React Native</li>
                 <li>Symfony, API Platform</li>
+                <li>NodeJS, Makefile</li>
               </ul>
             </div>
             <div
@@ -433,9 +428,10 @@
               >
               <ul class="text-danger-dark">
                 <li>Veille techno</li>
+                <li>Gestion de projet</li>
                 <li>Agile, SCRUM</li>
                 <li>VsCode, Eclipse</li>
-                <li>PHPStorm, Vim</li>
+                <li>PHPStorm, nvim</li>
               </ul>
             </div>
           </div>
@@ -453,11 +449,8 @@
             <h1 class="font-bold">Interets Extrapro</h1>
           </div>
           <p class="p-2 text-justify border-t-2 border-cyan-200">
-            l'open source, les jeux de rôle, le goût des choses simples, les
-            plantes vertes, la zététique, la science, le goût des choses
-            compliquées, le partage, la raison, l'optimisation, le system
-            design, Manjaro, Polybar, Rust, les github actions, les services
-            publics, la musique électronique analogique, l'écoconception,
+            L'open source, les jeux de rôle, le goût des choses simples, la zététique, la science, le goût des choses
+            compliquées, la communication, Arch Linux, la Vaporwave, la musique électronique analogique, l'écoconception,
             apprendre..
           </p>
         </div>
